@@ -1,0 +1,84 @@
+/*PALETA de colores
+https://coolors.co/022b3a-1f7a8c-bfdbf7-e1e5f2-ffffff
+#022B3A, #1F7A8C, #BFDBF7,  #E1E5F2, #FFFFFF */
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('https://source.unsplash.com/1600x900/?landscape');
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+    color: #022B3A;
+}
+
+.forecast{
+	background: rgba(255, 255, 255, 0.9);
+	padding: 2em;
+	border-radius: 22px;
+	width: 100%;
+	max-width: 420px;
+	margin: 1em;
+}
+.temp{
+	font-size: 2.3em;
+}
+button{
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	margin: 0.4em;
+	height: 43px;
+	width: 43px;
+	outline: none;
+}
+button:hover{
+	background:#1F7A8C;
+}
+button i{
+	font-size:1.7rem;
+}
+input.buscador{
+
+	padding: 0.7em 1em;
+	border-radius: 15px;
+	border: solid 1px;
+	border-color: #E1E5F2;
+	outline: none;
+	font-size: 110%;
+	font-family: inherit;
+	color: #022B3A;
+    width: calc(100% - 100px);
+}
+buscar{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+.iconoD, .detalles{
+    width:150px;
+	margin:auto;
+	padding-top: 1em;
+	padding-bottom: 1.4em;
+}
+h2{
+	margin:0;
+	margin-bottom: 0.8em;
+}
+.descripcion{
+	font-size: 110%;
+	padding-bottom: 0.1em;
+}
+.temp{
+	margin:0;
+	margin-bottom: 0.1em;
+}
+.icono{
+	background-color: #BFDBF7;
+	width: 80px;
+	border-radius: 22px;
+}
+.resultado{
+	display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
