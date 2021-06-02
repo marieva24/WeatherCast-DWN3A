@@ -7,4 +7,4 @@ IMPORTANTE: Para el uso de la aplicación requere ApiKeys de OpenWeather: 'https
 
 La aplicación devuelve la información climatológica de la ciudad selecionada mediante la conexión asincrónica con la aplicación Open Weather a través el método 'fetch'.
 
-#Es una copia de los archivos del main
+
